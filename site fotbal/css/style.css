@@ -4,7 +4,7 @@
     --primary: white;
     --secondary: #daed0f;
     --text: #1d1d1d;
-    --sectionbg: #58993fe0;
+    --sectionbg:rgba(96, 161, 89, 0.803); 
 }
 
 * {
@@ -19,7 +19,7 @@ html {
 body {
     color: var(--text);
     margin: 0px;
-    background: linear-gradient(#ffffffcf, #797575b6), url("../images/n4.jpg");
+    background: linear-gradient(#cbc4c4e0, #8b85859b), url("../images/n4.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -31,11 +31,11 @@ header {
     z-index: 2;
     width: 100%;
     backdrop-filter: blur(5px);
-    border-bottom: 2px solid yellow;
+    border-bottom: 1.7px solid yellow;
 }
 
 header img {
-    height: 50px;
+    height: 40px;
     border-radius: 30%;
     margin-left: 2%;
 }
@@ -44,7 +44,7 @@ footer {
     text-align: center;
     font-size: 1.3rem;
     min-height: 70px;
-    background-color: rgba(96, 145, 76, 0.88);
+    background-color: rgba(71, 147, 82, 0.883);
     border-top: 2px solid yellow;
 }
 
@@ -70,7 +70,7 @@ p {
 }
 
 .nav a:hover {
-    color: rgba(20, 160, 20, 0.925);
+    color: yellow;
 
 }
 
@@ -94,7 +94,7 @@ h1 {
 }
 
 .intro-content h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-top: 0px;
     margin-bottom: -15px;
 }
@@ -115,7 +115,7 @@ h1 {
     filter: opacity(0.8s);
 }
 
-.logou {
+.logo {
     height: 90px;
     border-radius: 20px;
 
@@ -253,7 +253,7 @@ main section {
 }
 
 .harta {
-    width: 50%;
+    width: 100%;
     height: 450px;
     border-radius: 7px;
 }
@@ -545,11 +545,10 @@ main section {
         text-align: center;
         margin-bottom: 10px;
     }
-
     #intro {
+        min-height: 50vh;
         background-position: 60%;
     }
-
     #noutati {
         padding-right: 10px;
     }
